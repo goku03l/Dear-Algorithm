@@ -2,8 +2,12 @@
 import pandas as pd
 import numpy as np
 
+#CHANGE FILE NAME HERE
+filename = "database.xlsx"
+#---------------------#
+
 #importing data and conversion
-df = pd.read_excel("database.xlsx",header= None)
+df = pd.read_excel(filename,header= None)
 df_head= df.iloc[-0, 1:]
 df_material = df.iloc[1:, 1]
 df_material= np.array(df_material)
