@@ -4,3 +4,4 @@ READ ME FILE FOR dear_algorithm.py
 2. Can have how many ever columns of numerical Data need to be analyzed from column 3.
 3. Row 1 must be a header or can be empty but weights are assigned on the header so row 1 will not be included.
 4. A sample spreadsheet is provided to have an idea about the input file.
+5. Keep your spreadsheet file in the same folder or copy file path and edit the variable 'filename'.
